@@ -5,7 +5,7 @@ EXPOSE 3000
 ENV HOME=/usr/src/app
 RUN mkdir -p ${HOME} && \
     useradd -u 1001 -r -g 0 -d ${HOME} -s /sbin/nologin \
-            -c "Rayner Web UI User" default
+            -c “Default App User“ default
 WORKDIR ${HOME}
 
 COPY package*.json ./
