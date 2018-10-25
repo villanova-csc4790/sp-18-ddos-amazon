@@ -1,23 +1,17 @@
+
 {
   "name": "sprint2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/villanova-csc4790/sp-18-ddos-amazon.git"
-  },
-  "author": "Thomas Defant",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/villanova-csc4790/sp-18-ddos-amazon/issues"
-  },
-  "homepage": "https://github.com/villanova-csc4790/sp-18-ddos-amazon#readme",
+  "private": true,
   "dependencies": {
-    "express": "^4.16.4",
-    "package.json": "^2.0.1"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
