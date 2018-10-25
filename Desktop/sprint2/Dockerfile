@@ -2,7 +2,7 @@ FROM node:8.11.2
 
 EXPOSE 3000
 
-ENV HOME=/opt/app-root
+ENV HOME=/usr/src/app
 RUN mkdir -p ${HOME} && \
     useradd -u 1001 -r -g 0 -d ${HOME} -s /sbin/nologin \
             -c “Default App User“ default
